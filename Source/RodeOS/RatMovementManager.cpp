@@ -37,6 +37,5 @@ void URatMovementManager::MoveBoneTo(FRotator TargetRotation, TEnumAsByte<EBoneS
         return;
     }
 
-    // Apply rotation directly to the chosen bone
     CachedPoseableMesh->SetBoneRotationByName(BoneName, TargetRotation, Space.GetValue());
 }

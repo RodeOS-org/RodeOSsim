@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.8",
+	"EngineAssociation": "5.9",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -28,6 +28,14 @@
 		{
 			"Name": "GeoReferencing",
 			"Enabled": true
+		},
+		{
+			"Name": "Stereolabs",
+			"Enabled": false
+		},
+		{
+			"Name": "AllToolsets",
+			"Enabled": false
 		}
 	]
 }
