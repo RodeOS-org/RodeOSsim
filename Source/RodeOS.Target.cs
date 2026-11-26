@@ -8,7 +8,8 @@ public class RodeOSTarget : TargetRules
 	public RodeOSTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V8;
+		DefaultBuildSettings = BuildSettingsVersion.V6;
+				bOverrideBuildEnvironment = true;
 
 		ExtraModuleNames.AddRange( new string[] { "RodeOS" } );
 	}
