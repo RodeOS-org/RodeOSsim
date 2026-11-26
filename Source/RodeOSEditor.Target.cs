@@ -8,7 +8,7 @@ public class RodeOSEditorTarget : TargetRules
 	public RodeOSEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V6;
+		DefaultBuildSettings = BuildSettingsVersion.V8;
 				bOverrideBuildEnvironment = true;
 
 		ExtraModuleNames.AddRange( new string[] { "RodeOS" } );
